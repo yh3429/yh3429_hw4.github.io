@@ -1,0 +1,10 @@
+---
+title: "index"
+author: "yh3429"
+date: "2022-10-31"
+output: html_document
+---
+
+## Welcome to Yujie's website.
+
+This is a website for P8105 HW4, which includes my personal information and a flexdashboard using `plotly`. 

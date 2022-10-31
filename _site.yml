@@ -1,0 +1,18 @@
+
+name: "yh3429_HW4"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<yh3429@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/yh3429/
+
+output:
+  html_document:
+    theme: flatly
