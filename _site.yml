@@ -14,7 +14,7 @@ navbar:
       href: http://github.com/yh3429/
 
 output:
-  html_document:
+  html_document: 
     theme: flatly
   
   
