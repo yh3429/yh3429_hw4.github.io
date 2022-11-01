@@ -1,0 +1,55 @@
+---
+title: "About me"
+author: "yh3429"
+date: "2022-11-01"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Education
+
+#### Columbia University, Mailman School of Public Health 	May 2023 
+  * Master of Public Health – Epidemiology
+  * Certificate – Applied Biostatistics and Public Health Data Science
+  * Relevant Courses: Design & Conduct of OBS EPI | Data Science |SAS |     Applied Regression 1&2  | Clinical Epidemiology
+
+#### Georgia State University (GSU), Atlanta, GA	June 2019-May 2021 
+  * Bachelor of Science – Major in Biology & Minor in Mathematics, Honor Student
+  * Relevant Courses: Virology | Biostatistics | Honor Genetics | Molecular Cell Bio Lab CTW 
+* GPA: 4.10/4.30
+
+#### Southwest Jiaotong University (SWJTU), Chengdu, Sichuan, China                                                                       Aug. 2017-May 2021
+* Bachelor of Engineering – Major in Bioengineering, School of Life Science and Engineering
+* Relevant Courses: Microbiology | Biochemistry | Animal Biology | Principles of Chemical Engineering Industry 
+* GPA: 3.46/4.00 
+
+## Intership
+
+#### iGEM Research Team, Atlanta, GA      July 2019- Dec.2019
+*Core member, Supervisor: Dr.Mathew Brewer, Professor of Biology, GSU*
+
+* Co-designed the project to inhibit coral bleaching through the action of symbiotic algae.
+* Applied SnapGene to design and synthesize DNA and recombine the target plasmid.
+* Worked on symbiodinium and tried to transfer the target plasmid into symbiodinium cell. 
+
+
+## Project 
+#### SAS Course Final Project    March 2022- May 2022
+*Core member, Supervisor: Dr. Matthew Lamb, Professor of Epidemiology, CU*
+
+* Co-designed the project and applied SAS to do logistic regression analysis to examine 900+ dataset whether depression is associated with binge drinking in young adults ages 18-25.
+
+## Awards
+#### GSU State Scholarship, Top 10% students  July 2019- May.2021
+*Issued by Georgia State University*
+	
+#### President’s list Recipient     Aug.2020
+*Issued by Georgia State University*
+
+#### iGEM Competition, Bronze Award Nov.2019
+*Issued by International Genetically Engineered Machine Competition Committee*
+
+
+
