@@ -1,27 +1,23 @@
 ---
-title: "index"
-author: "yh3429"
-date: "2022-10-31"
+title: "Home"
 output: 
   html_document:
     toc: true
     toc_float: true
  
 ---
- 
-
 ## Welcome to Yujie's website.
 
 This is a website for P8105 HW4, which includes my personal information and a flexdashboard using `plotly`. For now, there are two subpages in this website.
 
 ## About
 
-* [About me](about.html) 
+* [About](about.html) 
 The about page has information about me. Include my academic and professional experience.
 
 ## Dashboard
 
-* [Flexdashboard](board.html)
+* [Dashboard](dashboard.html)
 The dashboard page is a flexdashboard using `plotly` for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.).
 
 

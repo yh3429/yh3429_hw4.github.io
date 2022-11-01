@@ -1,7 +1,5 @@
 ---
-title: "Flexdashboard"
-author: "yh3429"
-date: "2022-11-01"
+title: "Dashboard"
 output:
    html_document:
     toc: true

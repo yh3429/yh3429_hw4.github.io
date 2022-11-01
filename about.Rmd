@@ -1,12 +1,17 @@
 ---
-title: "About me"
-author: "yh3429"
-date: "2022-11-01"
+title: "About"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
+
+## Contact information
+* Name: Yujie Huang 
+* Phone: (917) 402-2243 
+* Email: yh3429@cumc.columbia.edu 
+* Address: NY, NY 10032 
+* [Linkedin](https://www.linkedin.com/in/yujie-huang-1573a4242/)
 
 ## Education
 
