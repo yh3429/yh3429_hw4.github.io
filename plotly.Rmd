@@ -1,0 +1,66 @@
+---
+title: "plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Load dataset
+
+```{r, message=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+```{r}
+data("instacart")
+
+instacart = 
+  instacart %>% 
+  as_tibble(instacart)
+
+```
+
+
+## Plotly Barplot
+
+```{r}
+instacart %>% 
+  count(department) %>% 
+  filter(n > 5000) %>% 
+  mutate(department = fct_reorder(department, n)) %>% 
+  plot_ly( y = ~n, color = ~department, 
+           type = "bar", colors = "viridis")
+```
+
+## Plotly Scatterplot
+
+```{r}
+instacart %>% 
+  filter(aisle %in% c("baking ingredients",  "packaged vegetables fruits")) %>%
+  group_by(aisle) %>% 
+  count(product_name) %>% 
+  mutate(rank = min_rank(desc(n))) %>% 
+  arrange(desc(n)) %>%
+  filter(n > 300) %>% 
+  plot_ly(x = ~product_name, y = ~n, color = ~aisle, type = "scatter",
+          mode= "markers", colors = "viridis")
+```
+
+## Plotly Histogram
+
+```{r}
+instacart %>% 
+  count(aisle) %>% 
+  filter(n > 10000) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(
+    x = ~aisle, y = ~n, type = "histogram2d", 
+    alpha = 0.5
+  )
+```
