@@ -34,7 +34,7 @@ instacart %>%
   count(department) %>% 
   filter(n > 5000) %>% 
   mutate(department = fct_reorder(department, n)) %>% 
-  plot_ly( y = ~n, color = ~department, 
+  plot_ly( x= ~department, y = ~n, color = ~department, 
            type = "bar", colors = "viridis")
 ```
 
