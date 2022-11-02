@@ -8,12 +8,17 @@ output:
 ---
 ## Welcome to Yujie's website.
 
-This is a website for P8105 HW4, which includes my personal information and a flexdashboard using `plotly`. For now, there are two subpages in this website.
+This is a website for P8105 HW4, which includes my personal information and a flexdashboard using `plotly`. For now, there are three subpages in this website.
 
 ## About
 
 * [About](about.html) 
 The about page has information about me. Include my academic and professional experience.
+
+## Plotly
+
+* [Plotly](plotly.html) 
+Three plots according to the instacard dataset.
 
 ## Dashboard
 
